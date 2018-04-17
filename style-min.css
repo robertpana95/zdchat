@@ -1,0 +1,89 @@
+p.chat-line pre{
+    white-space:pre-wrap!important
+}
+p.chat-line a{
+    word-wrap:break-word!important
+}
+.chat-line{
+    border:2px solid!important;
+    border-radius:15px!important;
+    max-width:80%!important;
+    padding:5px!important;
+    margin:0 0 12px 0!important
+}
+p.chat-line.agent-line a{
+    color: blue!important
+}
+p.chat-line.agent-line a:hover{
+    text-decoration:underline!important;
+	color: blue!important
+}
+p.chat-line.user-line a{
+    color: blue!important
+}
+p.chat-line.user-line a:hover{
+    color: blue!important;
+	text-decoration:underline!important
+}
+.agent-line{
+    margin-left:20%!important;
+    padding-right:15px!important;
+    text-align:right!important
+}
+.user-line{
+    background-color:#f8f8f8!important;
+    border-color:#dddddd!important;
+    padding-left:15px!important;
+    text-align:left!important
+}
+.system-line{
+    background-color:#fff6d9!important;
+    border:1px solid #efdaa3!important;
+    border-radius:3px!important;
+    max-width:60%!important;
+    margin:0 0 12px 20%!important;
+    text-align:center!important;
+    padding:5px!important;
+    font-size:12px!important;
+    line-height:12px!important
+}
+.arrow-chat:before,.arrow-chat:after{
+    content:''!important;
+    height:0px!important;
+    max-width:0px!important;
+    position:relative!important;
+    display:block!important;
+    border-radius:20px / 5px!important;
+    margin-top:-9px!important
+}
+.arrow-agent:before{
+    border-left:11px solid transparent!important;
+    border-right:11px solid transparent!important;
+    border-bottom:11px solid!important;
+    left:100%!important;
+    margin-left:5px!important;
+    top:5px!important
+}
+.arrow-agent:after{
+    border-left:8px solid transparent!important;
+    border-right:8px solid transparent!important;
+    border-bottom:8px solid!important;
+    left:100%!important;
+    margin-left:6px!important;
+    top:4px!important
+}
+.arrow-user:before{
+    border-left:11px solid transparent!important;
+    border-right:11px solid transparent!important;
+    border-bottom:11px solid #dddddd!important;
+    left:-26px!important;
+    top:5px!important
+}
+.arrow-user:after{
+    border-left:8px solid transparent!important;
+    border-right:8px solid transparent!important;
+    border-bottom:8px solid #f8f8f8!important;
+    left:-21px!important;
+    top:4px!important
+}
+ 
